@@ -1,0 +1,11 @@
+@import '../../../../index.scss';
+
+.mainLinks {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: $fontColor_White;
+  text-decoration: none;
+}

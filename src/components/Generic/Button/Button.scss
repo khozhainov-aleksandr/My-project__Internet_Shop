@@ -1,0 +1,20 @@
+@import '../../../index.scss';
+
+.mainButton {
+  padding: 8px 40px;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 15px;
+  color: $fontColor_White;
+  text-transform: uppercase;
+
+  background-color: $mainColor_PastelGreen;
+  border: 2px solid $mainColor_PastelGreen;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s border;
+
+  &:hover {
+    border: 2px solid $mainColor_PastelGreen__hoverLine;
+  }
+}

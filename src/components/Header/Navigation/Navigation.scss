@@ -1,0 +1,30 @@
+@import '../../../index.scss';
+
+.navigation {
+  background-color: $mainColor_Sky;
+
+  &__wrapper {
+    padding: 18px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo {
+    height: 59px;
+  }
+
+  &__listAndButtonWrapper {
+    display: flex;
+    gap: 30px;
+  }
+
+  &__list {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 36px;
+
+    list-style: none;
+  }
+}
